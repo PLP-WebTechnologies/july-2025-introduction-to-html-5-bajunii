@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive guide to modern web development covering HTML5, accessibility best practices, and SEO fundamentals for creating inclusive and discoverable websites.">
+    <meta name="keywords" content="HTML5, web accessibility, SEO, semantic markup, web development, inclusive design">
+    <meta name="author" content="Web Development Student">
+    <title>Modern Web Development Guide - HTML5, Accessibility & SEO</title>
+</head>
+<body>
+    <header>
+        <h1>Modern Web Development Guide</h1>
+        <p>Your comprehensive resource for HTML5, Accessibility, and SEO best practices</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#html5-fundamentals">HTML5 Fundamentals</a></li>
+            <li><a href="#accessibility-practices">Accessibility Practices</a></li>
+            <li><a href="#seo-basics">SEO Basics</a></li>
+            <li><a href="#resources">Additional Resources</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="html5-fundamentals" aria-labelledby="html5-heading">
+            <h2 id="html5-heading">HTML5 Fundamentals</h2>
+            <p>HTML5 introduced semantic elements that provide meaning to web content, making it more accessible and SEO-friendly. These elements help both assistive technologies and search engines understand the structure and purpose of your content.</p>
+            
+            <article>
+                <h3>Key Semantic Elements</h3>
+                <p>Modern HTML5 provides several semantic elements that replace generic div containers:</p>
+                <ul>
+                    <li><strong>Header:</strong> Contains introductory content or navigation aids</li>
+                    <li><strong>Nav:</strong> Defines navigation links</li>
+                    <li><strong>Main:</strong> Represents the main content of the document</li>
+                    <li><strong>Section:</strong> Groups related content together</li>
+                    <li><strong>Article:</strong> Contains independent, self-contained content</li>
+                    <li><strong>Aside:</strong> Contains content indirectly related to the main content</li>
+                    <li><strong>Footer:</strong> Contains footer information for its nearest sectioning content</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Benefits of Semantic HTML</h3>
+                <p>Using semantic HTML elements provides multiple advantages:</p>
+                <ol>
+                    <li>Improved accessibility for screen readers and other assistive technologies</li>
+                    <li>Better SEO as search engines can better understand content structure</li>
+                    <li>Enhanced maintainability and readability of code</li>
+                    <li>Future-proofing your website for new technologies</li>
+                </ol>
+            </article>
+        </section>
+
+        <section id="accessibility-practices" aria-labelledby="accessibility-heading">
+            <h2 id="accessibility-heading">Web Accessibility Practices</h2>
+            <p>Web accessibility ensures that websites are usable by people with disabilities. Following accessibility guidelines creates a more inclusive web experience for everyone.</p>
+
+            <article>
+                <h3>Essential Accessibility Features</h3>
+                <p>Implementing these features makes your website more accessible:</p>
+                <dl>
+                    <dt>Alt Text for Images</dt>
+                    <dd>Provide descriptive alternative text for images to help screen reader users understand visual content</dd>
+                    
+                    <dt>Proper Heading Hierarchy</dt>
+                    <dd>Use heading tags (h1-h6) in logical order to create a clear document outline</dd>
+                    
+                    <dt>Keyboard Navigation</dt>
+                    <dd>Ensure all interactive elements can be accessed and operated using only a keyboard</dd>
+                    
+                    <dt>Color Contrast</dt>
+                    <dd>Maintain sufficient color contrast between text and background for readability</dd>
+                    
+                    <dt>Form Labels</dt>
+                    <dd>Associate form inputs with descriptive labels for better usability</dd>
+                </dl>
+            </article>
+
+            <article>
+                <h3>ARIA Landmarks and Roles</h3>
+                <p>ARIA (Accessible Rich Internet Applications) attributes enhance the accessibility of complex web content. Key ARIA features include:</p>
+                <ul>
+                    <li><code>aria-label</code>: Provides accessible names for elements</li>
+                    <li><code>aria-labelledby</code>: References other elements that describe the current element</li>
+                    <li><code>aria-describedby</code>: References elements that provide additional description</li>
+                    <li><code>role</code>: Defines what an element is or does</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="seo-basics" aria-labelledby="seo-heading">
+            <h2 id="seo-heading">Search Engine Optimization Basics</h2>
+            <p>SEO helps search engines understand and rank your content. Good SEO practices improve your website's visibility in search results.</p>
+
+            <article>
+                <h3>On-Page SEO Elements</h3>
+                <p>These fundamental elements form the foundation of good on-page SEO:</p>
+                <table>
+                    <caption>Key SEO Elements and Their Purposes</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Element</th>
+                            <th scope="col">Purpose</th>
+                            <th scope="col">Best Practice</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Title Tag</th>
+                            <td>Defines the page title in search results</td>
+                            <td>Keep under 60 characters, include main keyword</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Meta Description</th>
+                            <td>Provides a summary in search results</td>
+                            <td>Write compelling 150-160 character descriptions</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Heading Tags</th>
+                            <td>Structure content hierarchy</td>
+                            <td>Use one H1 per page, logical H2-H6 structure</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Alt Text</th>
+                            <td>Describes images for search engines</td>
+                            <td>Be descriptive but concise</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <article>
+                <h3>Content Optimization</h3>
+                <p>Creating high-quality, relevant content is essential for SEO success. Focus on:</p>
+                <ul>
+                    <li>Writing for your audience first, search engines second</li>
+                    <li>Using natural language and relevant keywords</li>
+                    <li>Creating comprehensive, valuable content</li>
+                    <li>Maintaining a logical content structure</li>
+                    <li>Including internal and external links where appropriate</li>
+                </ul>
+            </article>
+        </section>
+
+        <aside id="resources" aria-labelledby="resources-heading">
+            <h2 id="resources-heading">Additional Resources</h2>
+            <p>Expand your knowledge with these valuable resources:</p>
+            
+            <h3>Official Documentation</h3>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">MDN HTML Documentation</a></li>
+                <li><a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank" rel="noopener">WCAG 2.1 Quick Reference</a></li>
+                <li><a href="https://developers.google.com/search/docs" target="_blank" rel="noopener">Google Search Documentation</a></li>
+            </ul>
+
+            <h3>Accessibility Tools</h3>
+            <ul>
+                <li><a href="https://wave.webaim.org/" target="_blank" rel="noopener">WAVE Web Accessibility Evaluator</a></li>
+                <li><a href="https://www.color-blindness.com/color-blind-assistant/" target="_blank" rel="noopener">Color Blindness Simulator</a></li>
+                <li><a href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener">WebAIM Contrast Checker</a></li>
+            </ul>
+
+            <h3>SEO Tools</h3>
+            <ul>
+                <li><a href="https://search.google.com/search-console" target="_blank" rel="noopener">Google Search Console</a></li>
+                <li><a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">PageSpeed Insights</a></li>
+                <li><a href="https://validator.w3.org/" target="_blank" rel="noopener">W3C Markup Validator</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Modern Web Development Guide. Created as part of HTML5 + Accessibility & SEO Basics assignment.</p>
+        <address>
+            <p>Contact: <a href="mailto:haithamomar520@gmail.com">haithamomar520@gmail.com</a></p>
+        </address>
+    </footer>
+</body>
+</html>
